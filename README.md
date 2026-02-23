@@ -63,7 +63,7 @@ Repeat this step for the following model variants you wish to utilize:
 
 ### Install node in Hanzo Studio
 The recommended way to install these nodes is to use the [Hanzo Manager](https://github.com/ltdrdata/Hanzo Manager) to easily install them to your Hanzo Studio instance.  
-You can also manually install them by git cloning the repo to your Hanzo Studio/custom_nodes folder.
+You can also manually install them by git cloning the repo to your HanzoStudio/custom_nodes folder.
 
 
 ### Node Details
