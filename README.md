@@ -6,7 +6,7 @@ NIMs are NVIDIA Microservices containers designed to run models in the most opti
 
 Experimental support is also provided for Stability AI SD3.5 Large, SD3.5 Large-controlnet-canny, and SD3.5 Large-controlnet-depth on GPUs with 32GB or more VRAM.
 
-## Getting Started with the FLUX NIM in ComfyUI
+## Getting Started with the FLUX NIM in Hanzo Studio
 
 Before installing, ensure your system meets the following requirements:  
 Operating System: Windows 11 (22H1 or later)  
@@ -21,10 +21,10 @@ However it is recommended to installer from [here](https://assets.ngc.nvidia.com
 
 After the NIM setup has completed, please perform the following steps to start NIMs in Comfy UI:
 
-1. Install ComfyUI
-2. Open ComfyUI folder, clone this repo and put it under `...\ComfyUI\custom_nodes\`
-3. Go to `...\ComfyUI\custom_nodes\NIMNodes\`and install the dependencies with the following command: `pip install -r requirements.txt`
-4. If using the windows standalone ComfyUI install use this command `..\..\..\python_embeded\python -m pip install -r requirements.txt`
+1. Install Hanzo Studio
+2. Open Hanzo Studio folder, clone this repo and put it under `...\Hanzo Studio\custom_nodes\`
+3. Go to `...\Hanzo Studio\custom_nodes\NIMNodes\`and install the dependencies with the following command: `pip install -r requirements.txt`
+4. If using the windows standalone Hanzo Studio install use this command `..\..\..\python_embeded\python -m pip install -r requirements.txt`
 5. A HuggingFace API token is required to access the Flux models. For information on how to create an access token see [here](https://huggingface.co/docs/hub/en/security-tokens)
 6. To avoid having to input your token into the NIM everytime you can set the HF_TOKEN environment variable.
 7. Open a command prompt and type `setx HF_TOKEN <hftoken_info>` where <hftoken_info> represents your actual Hugging Face Token string.
@@ -51,19 +51,19 @@ Repeat this step for the following model variants you wish to utilize:
 | FLUX.1-kontext-dev-onnx    | [https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev-onnx](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev-onnx) |
 | SD 3.5 Large    | [https://huggingface.co/stabilityai/stable-diffusion-3.5-large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large) |
 
-## Start ComfyUI
-1. Run ComfyUI APP with `python main.py` under `...\ComfyUI\`
-2. For ComfyUI standalone, run ComfyUI using the run_nvidia_gpu.bat file. 
-3. Open ComfyUI in browser, and import workflow `...\ComfyUI\custom_nodes\comfyui_nim\example_workflows\FLUX_Dev_NIM_Workflow.json`
+## Start Hanzo Studio
+1. Run Hanzo Studio APP with `python main.py` under `...\Hanzo Studio\`
+2. For Hanzo Studio standalone, run Hanzo Studio using the run_nvidia_gpu.bat file. 
+3. Open Hanzo Studio in browser, and import workflow `...\Hanzo Studio\custom_nodes\hanzo_studio_nim\example_workflows\FLUX_Dev_NIM_Workflow.json`
 4. Run the workflow. *The first time you run this it will download and configure the container, this may take a while.*
 5. ![flux_dev nim workflow](assets/Flux.1_dev_NIM.png)
 6. ![flux_depth_dev nim workflow](assets/Flux.1_depth_dev_NIM.png)
 7. ![flux_canny_dev nim workflow](assets/Flux.1_canny_dev_NIM.png) 
-8. When ComfyUI is shutdown, the running NIMs will also be stopped  
+8. When Hanzo Studio is shutdown, the running NIMs will also be stopped  
 
-### Install node in ComfyUI
-The recommended way to install these nodes is to use the [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) to easily install them to your ComfyUI instance.  
-You can also manually install them by git cloning the repo to your ComfyUI/custom_nodes folder.
+### Install node in Hanzo Studio
+The recommended way to install these nodes is to use the [Hanzo Manager](https://github.com/ltdrdata/Hanzo Manager) to easily install them to your Hanzo Studio instance.  
+You can also manually install them by git cloning the repo to your Hanzo Studio/custom_nodes folder.
 
 
 ### Node Details

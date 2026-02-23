@@ -30,7 +30,7 @@
         }
       ],
       "properties": {
-        "aux_id": "comfyui_nim",
+        "aux_id": "hanzo_studio_nim",
         "ver": "5048deba71359baf23904966b5436dfe42b0ae97",
         "Node name for S&R": "InstallNIMNode"
       },
@@ -78,7 +78,7 @@
         }
       ],
       "properties": {
-        "aux_id": "comfyui_nim",
+        "aux_id": "hanzo_studio_nim",
         "ver": "5048deba71359baf23904966b5436dfe42b0ae97",
         "Node name for S&R": "LoadNIMNode"
       },
@@ -130,7 +130,7 @@
         }
       ],
       "properties": {
-        "aux_id": "comfyui_nim",
+        "aux_id": "hanzo_studio_nim",
         "ver": "5048deba71359baf23904966b5436dfe42b0ae97",
         "Node name for S&R": "NIMFLUXNode"
       },
@@ -172,7 +172,7 @@
         "ver": "0.3.27"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -200,7 +200,7 @@
         }
       ],
       "properties": {
-        "aux_id": "comfyui_nim",
+        "aux_id": "hanzo_studio_nim",
         "ver": "5048deba71359baf23904966b5436dfe42b0ae97",
         "Node name for S&R": "Get_HFToken"
       },

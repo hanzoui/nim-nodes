@@ -9,9 +9,9 @@ license = { file = "LICENSE" }
 
 
 [project.urls]
-Repository = "https://github.com/Comfy-Org/NIMnodes"
+Repository = "https://github.com/hanzoui/nim-nodes"
 
-#  Used by Comfy Registry https://registry.comfy.org
+#  Used by Comfy Registry https://registry.hanzo.ai
 [tool.comfy]
 PublisherId = "comfyorg"
 DisplayName = "NIM-Nodes"

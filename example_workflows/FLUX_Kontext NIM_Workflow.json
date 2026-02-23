@@ -84,7 +84,7 @@
         "ver": "0.3.27"
       },
       "widgets_values": [
-        "ComfyUI"
+        "Hanzo Studio"
       ]
     },
     {
@@ -140,7 +140,7 @@
         }
       ],
       "properties": {
-        "aux_id": "Comfy-Org/NIMnodes",
+        "aux_id": "hanzoui/nim-nodes",
         "ver": "9fa2fd99b57a1cf9c75b6152904e122984818101",
         "Node name for S&R": "NIMFLUXNode"
       },
@@ -216,7 +216,7 @@
         }
       ],
       "properties": {
-        "aux_id": "comfyui_nim",
+        "aux_id": "hanzo_studio_nim",
         "ver": "5048deba71359baf23904966b5436dfe42b0ae97",
         "Node name for S&R": "Get_HFToken"
       },
@@ -261,7 +261,7 @@
         }
       ],
       "properties": {
-        "aux_id": "comfyui_nim",
+        "aux_id": "hanzo_studio_nim",
         "ver": "5048deba71359baf23904966b5436dfe42b0ae97",
         "Node name for S&R": "LoadNIMNode"
       },
@@ -298,7 +298,7 @@
         }
       ],
       "properties": {
-        "aux_id": "comfyui_nim",
+        "aux_id": "hanzo_studio_nim",
         "ver": "5048deba71359baf23904966b5436dfe42b0ae97",
         "Node name for S&R": "InstallNIMNode"
       },
