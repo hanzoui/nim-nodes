@@ -62,7 +62,7 @@ Repeat this step for the following model variants you wish to utilize:
 8. When Hanzo Studio is shutdown, the running NIMs will also be stopped  
 
 ### Install node in Hanzo Studio
-The recommended way to install these nodes is to use the [Hanzo Manager](https://github.com/ltdrdata/Hanzo Manager) to easily install them to your Hanzo Studio instance.  
+The recommended way to install these nodes is to use the [Hanzo Manager](https://github.com/ltdrdata/ComfyUI-Manager) to easily install them to your Hanzo Studio instance.  
 You can also manually install them by git cloning the repo to your HanzoStudio/custom_nodes folder.
 
 
